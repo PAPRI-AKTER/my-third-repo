@@ -23,11 +23,9 @@ nav{
     background-color:#fb4137;
 }
 nav:hover{
-    background-color:#37fbf8;
+    background-color:rgba(4, 0, 0, 0.689);
 }
-nav:hover a{
-    color: black;
-}
+
 #banner{
     height: 100vh;
     width: 100%;
