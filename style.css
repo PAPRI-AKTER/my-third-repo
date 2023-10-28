@@ -135,3 +135,151 @@ nav:hover{
     border-radius: 25px;
     margin-top: 20px;
 }
+#about{
+    padding: 30px;
+    height: 100vh !important;
+}
+.abouth1{
+    color: #fb4137;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Arial;
+    text-align: center;
+}
+.about-main{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: cente;
+}
+.about-main div{
+  width: 100%;
+}
+.about-main div img{
+  width: 100%
+}
+.about-main article{
+  padding: 0 20px;
+  width: 100%;
+}
+.about-main article h2{
+  font-size:28px ;
+  font-family: sans-serif;
+  text-align: center;
+}
+.about-main article h2 addr{
+ color:#fb4137
+}
+.about-main article p{
+ text-align: center;
+ font-family: sans-serif;
+ padding: 20px 0px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+.about-main article button{
+    padding: 8px 20px;
+    background-color: #fb4137;
+    color:white;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin: 0 auto !important;
+    justify-content: center;
+}
+#contact{
+   margin-top: 50px;   
+}
+.contacth1{
+    color: #fb4137;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Arial;
+    text-align: center;
+    margin-top: 50px;
+}
+.contact-main{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: cente;
+}
+.img_main{
+    width:100%;
+    /* background-color: red; */
+}
+.img_main img{
+    width:100%;
+    
+}
+.contact-main article{
+  padding: 0 20px;
+  width: 100%;
+}
+
+
+
+.contact-main article button{
+    padding: 8px 20px;
+    background-color: #fb4137;
+    color:white;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    font-size: 18px;
+    margin: 0 auto !important;
+    justify-content: center;
+}
+.form{
+    background-color: #E8EAED;
+     height: 100%;
+    /* padding: 30px 30px; */ 
+ 
+    
+    
+}
+.form p{
+    font-family: Arial;
+    font-weight: 500;
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: left;
+    
+    
+}
+
+input{
+    width: 70%;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+
+}
+input:focus{
+    border: 2px solid #fb4137;
+    background-color: #E8EAED;
+}
+textarea{
+    width:70% ;
+    height: 100px;
+    outline: none;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+textarea:focus{
+    border: 2px solid #fb4137;
+    background-color: #E8EAED;
+}
+footer{
+  
+    background-color: #fb4137;
+    color:white;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
