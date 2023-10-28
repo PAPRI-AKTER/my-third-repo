@@ -14,8 +14,19 @@ nav div ul li a{
    color: white;
    padding:10px 0px;
 }
+nav div ul li a:hover{
+ color: #fb4137;
+ font-weight: 600;
+
+}
 nav{
     background-color:#fb4137;
+}
+nav:hover{
+    background-color:#37fbf8;
+}
+nav:hover a{
+    color: black;
 }
 #banner{
     height: 100vh;
@@ -71,4 +82,58 @@ nav{
     justify-content: center;
     align-items: center;
 }
+/* Services style by Shaharia */
+#service{
+    padding: 30px;
+}
+#service h1{
+    color: #fb4137;
+    font-size: 30px;
+    font-weight: 800;
+    font-family: Arial;
+    text-align: center;
+}
+.services_main{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:30px;
+    margin-top: 30px;
+}
+.services_main img{
+    width: 100%;
+    height: 250px;
+    transition: all 2s;
+   
+}
+.services_main img:hover{
+    transform: scale(1.1);
+  
+}
+.services_main div{
+   background-color:#E8EAED ;
+   border-radius: 5px;
+   padding: 10px 20px;
 
+}
+.services_main div h3{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 10px 0;
+    margin-top: 30px;
+
+}
+.services_main div p{
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400;
+
+}
+.services_main div button{
+    background-color: #fb4137;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 20px;
+}
