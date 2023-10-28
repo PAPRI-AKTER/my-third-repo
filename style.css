@@ -1,0 +1,74 @@
+*{
+    margin: 0 ;
+    padding:0 ;
+}
+
+nav div ul li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 0px !important;
+}
+nav div ul li a{
+   margin-left: 20px;
+   text-decoration: none;
+   color: white;
+   padding:10px 0px;
+}
+nav{
+    background-color:#fb4137;
+}
+#banner{
+    height: 100vh;
+    width: 100%;
+    background-image: url("./coding.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+#banner::after{
+    content: "";
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: rgba(39, 36, 36, 0.694);
+}
+.banner-main{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:white;
+
+
+}
+.banner-main div h1 {
+    font-size: 45px;
+    z-index: 10;
+    text-align: center;
+
+}
+.banner-main div p{
+    text-align: center;
+    font-size: 20px;
+}
+.banner-main div button{
+    padding: 8px 15px;
+    background-color: #fb4137;
+    color:white;
+    justify-content: center;
+    width: 100px;
+    border: none;
+    border-radius: 25px;
+    margin-top: 10px;
+    
+}
+.banner-main div{
+    display: flex;
+    flex-flow:column;
+    justify-content: center;
+    align-items: center;
+}
+
